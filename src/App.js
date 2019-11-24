@@ -20,6 +20,8 @@ class App extends Component {
       this.setState({
         message
       })
+
+      return !isValid;
     }
 
     render() {
